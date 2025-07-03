@@ -1,7 +1,7 @@
 .telegram-webapp-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   background: #fff;
   color: #111827;
   padding: 16px;
@@ -33,9 +33,6 @@
   margin: 0;
 }
 
-.telegram-content {
-  padding-top: 1rem;
-}
 
 .telegram-webapp {
   min-height: 100vh;
