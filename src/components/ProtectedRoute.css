@@ -1,0 +1,63 @@
+.protected-route-login-btn {
+  background: #2563eb;
+  color: #111827;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+.protected-route-login-btn:hover {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.protected-route-fullscreen {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eff6ff 0%, #ffffff 50%, #faf5ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.protected-route-center {
+  text-align: center;
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.protected-route-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.protected-route-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.protected-route-message {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.protected-route-spinner {
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border-bottom: 3px solid #2563eb;
+  margin: 0 auto 1rem auto;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} 
