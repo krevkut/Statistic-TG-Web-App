@@ -13,3 +13,9 @@
 
 Для того, чтобы подключить к Тг боту нужно создать файл .env.locl в корневой папке. 
 Пример: BOT_TOKEN=ВАШ_ТОКЕН_ТГ_БОТА
+
+Скриншот страницы авторизации
+![image](https://github.com/user-attachments/assets/96e509f8-3e92-457b-a002-306556018c31)
+
+Скриншот страницы с сотрудниками
+![image](https://github.com/user-attachments/assets/cf15fc08-8751-4d14-8109-96b7ff95e157)
